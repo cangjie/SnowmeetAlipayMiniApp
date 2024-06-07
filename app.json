@@ -3,7 +3,7 @@
     "pages/index/index"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "易龙雪聚"
   },
   "behavior": {
     "requestReferrerStrategy": "page"

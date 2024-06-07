@@ -2,12 +2,24 @@ Page({
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    
   },
   onReady() {
     // 页面加载完成
+    console.log('ready')
+    my.tradePay({
+      tradeNO: '2024060722001485891440883968',
+      success: res => {
+        console.log(res)
+      },
+      fail: error => {
+        console.log(error)
+      }
+    });
   },
   onShow() {
     // 页面显示
+   
   },
   onHide() {
     // 页面隐藏
